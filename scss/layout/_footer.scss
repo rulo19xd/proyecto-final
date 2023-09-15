@@ -1,0 +1,46 @@
+footer {
+    background-image: url(../assets/fondonav.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat; 
+    height: 100px; 
+    font-size: 20px;
+    margin: 0px;
+    font-family: 'Oswald', sans-serif;
+    div {   align-items: center;
+            ul {
+                list-style-type: none; /* Elimina los marcadores de viñeta */
+                padding: 0; /* Elimina el espacio de relleno predeterminado de la lista */
+                margin: 0; /* Elimina el margen predeterminado de la lista */
+                background-image: url(../assets/fondonav.jpeg);
+                background-size: cover; 
+                background-position: center; 
+                background-repeat: no-repeat; 
+                height: 150px;
+                li {
+                    p {
+                        text-align: center;
+                    }
+                    .facebook {
+                        text-decoration: none;
+                        cursor: pointer;
+                    
+                    }
+                    .instagram {
+                        text-decoration: none;
+                        cursor: pointer;
+                    
+                    }
+                    .whatsapp {
+                        text-decoration: none;
+                        cursor: pointer;    
+                        height: 20px;
+                        width: 20px;
+                        padding-left: 0px;
+                        padding-top: 10px;
+                        position: static;
+                        
+                    }
+                }
+        }           
+    }
+}

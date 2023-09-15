@@ -1,0 +1,17 @@
+//base//
+@import "../scss/base/reset" ;
+@import "./base/typo";
+
+//variables//
+@import "./utilities/variables";
+@import "./utilities/mixins";
+
+//layout//
+
+@import "./layout/index";
+@import "./layout/footer";
+@import "./layout/aboutme";
+@import "./layout/trabajos";
+@import "./layout/servicios";
+@import "./layout/contacto";
+@import "./layout/header";
