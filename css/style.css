@@ -14,48 +14,6 @@ header {
 footer {
   background-image: url(../../assets/fondonav.jpeg); }
 
-header nav .t {
-  font-size: 40px;
-  font-weight: 1000;
-  padding-bottom: 4rem;
-  font-family: 'Oswald', sans-serif;
-  padding-bottom: 80px;
-  position: absolute;
-  padding-top: 15px;
-  padding-left: 20px;
-  padding-right: 30px;
-  margin-right: 50px; }
-
-header ul {
-  padding-bottom: 5rem;
-  margin-left: 100px;
-  padding-bottom: 5rem;
-  margin-bottom: 30px;
-  padding-left: 200px;
-  padding-bottom: 40px;
-  position: block;
-  padding-left: 300px;
-  padding-bottom: 70px;
-  position: block; }
-
-header ul li {
-    display: inline;
-    font-weight: bold;
-    font-size: 20px;
-    padding-inline: 10px;
-    font-family: 'Oswald', sans-serif;
-    padding-top: 100px;
-    padding-left: 30px;
-    padding-bottom: 5rem;
-    margin-bottom: 30px; }
-    header ul li a {
-      text-decoration: none;
-      cursor: pointer; }
-      header ul li a:visited {
-        color: black; }
-      header ul li a:link {
-        color: black; }
-
 main {
   background-image: url(../assets/fondonav.jpeg);
   margin: 0px;
@@ -123,22 +81,11 @@ footer {
       background-position: center;
       background-repeat: no-repeat;
       height: 150px; }
+      footer div ul li a img {
+        height: 40px;
+        width: 40px; }
       footer div ul li p {
         text-align: center; }
-      footer div ul li .facebook {
-        text-decoration: none;
-        cursor: pointer; }
-      footer div ul li .instagram {
-        text-decoration: none;
-        cursor: pointer; }
-      footer div ul li .whatsapp {
-        text-decoration: none;
-        cursor: pointer;
-        height: 20px;
-        width: 20px;
-        padding-left: 0px;
-        padding-top: 10px;
-        position: static; }
 
 .qs {
   font-size: 30px;
@@ -211,3 +158,44 @@ label {
 .card {
   margin-left: 10px;
   margin-right: 10px; }
+
+header nav .t {
+  font-size: 40px;
+  font-weight: 1000;
+  padding-bottom: 4rem;
+  font-family: 'Oswald', sans-serif;
+  padding-bottom: 80px;
+  position: absolute;
+  padding-top: 15px;
+  padding-left: 20px;
+  padding-right: 30px;
+  margin-right: 50px; }
+
+header nav ul {
+  padding-bottom: 5rem;
+  margin-left: 100px;
+  padding-bottom: 5rem;
+  margin-bottom: 30px;
+  padding-left: 200px;
+  padding-bottom: 40px;
+  position: block;
+  padding-left: 300px;
+  padding-bottom: 70px;
+  position: block; }
+  header nav ul li {
+    display: inline;
+    font-weight: bold;
+    font-size: 20px;
+    padding-inline: 10px;
+    font-family: 'Oswald', sans-serif;
+    padding-top: 100px;
+    padding-left: 30px;
+    padding-bottom: 5rem;
+    margin-bottom: 30px; }
+    header nav ul li a {
+      text-decoration: none;
+      cursor: pointer; }
+      header nav ul li a:visited {
+        color: black; }
+      header nav ul li a:link {
+        color: black; }

@@ -17,30 +17,16 @@ footer {
                 background-repeat: no-repeat; 
                 height: 150px;
                 li {
+                    a{
+                        img{
+                            height: 40px;
+                            width: 40px;
+                        }
+                    }
                     p {
                         text-align: center;
                     }
-                    .facebook {
-                        text-decoration: none;
-                        cursor: pointer;
-                    
-                    }
-                    .instagram {
-                        text-decoration: none;
-                        cursor: pointer;
-                    
-                    }
-                    .whatsapp {
-                        text-decoration: none;
-                        cursor: pointer;    
-                        height: 20px;
-                        width: 20px;
-                        padding-left: 0px;
-                        padding-top: 10px;
-                        position: static;
-                        
-                    }
-                }
-        }           
+            }
+        }
     }
-}
+}         
