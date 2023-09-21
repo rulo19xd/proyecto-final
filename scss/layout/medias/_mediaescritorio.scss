@@ -1,0 +1,12 @@
+@media (min-width: $tablet ) {
+@import "../../base/typo";
+@import "../../base/reset";
+
+@import "./utilities/_mixins.scss";
+
+@import "../layout/_index.scss";
+@import "../layout/_servicios.scss";
+@import "../layout/_galeria.scss";
+@import "../layout/_sobrenosotros.scss";
+
+}

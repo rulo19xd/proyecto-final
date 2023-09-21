@@ -1,17 +1,16 @@
-//base//
-@import "../scss/base/reset" ;
 @import "./base/typo";
-
-//variables//
 @import "./utilities/variables";
-@import "./utilities/mixins";
 
-//layout//
+@import "./utilities/_mixins.scss";
 
-@import "./layout/index";
-@import "./layout/footer";
-@import "./layout/aboutme";
-@import "./layout/trabajos";
-@import "./layout/servicios";
-@import "./layout/contacto";
-@import "./layout/header";
+@import "./layout/_index.scss";
+@import "./layout/_servicios.scss";
+@import "./layout/_galeria.scss";
+@import "./layout/_sobrenosotros.scss";
+
+@import "./layout/medias/_mediacelver.scss";
+@import "./layout/medias/_mediacelhor.scss";
+@import "./layout/medias/_mediatablet.scss";
+@import "./layout/medias/mediaescritorio";
+
+
