@@ -20,6 +20,5 @@
 - Cambie el contenido, ya no hay mas lorem
 - Cambie el contenido meta para q no sea el mismo, ahora solo comparten las palabras clave
 - Agregue un logo en la parte de la ventana
-
 ## proposito de la pagina 
 - Esta pagina fue creada con fines publicitarios para una empresa sanjuanina de cercos electricos. 
