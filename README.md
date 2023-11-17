@@ -19,4 +19,4 @@
 
 
 ## proposito de la pagina 
-- Esta pagina fue creada con fines publicitarios para una empresa sanjuanina de cercos electricos. 
+- Esta pagina fue creada con fines educativos para un proyecto de CoderHouse basandose en una empresa sanjuanina de cercos eléctricos.
